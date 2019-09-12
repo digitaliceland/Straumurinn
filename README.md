@@ -1,0 +1,2 @@
+# Straumurinn
+Rekstrarumhverfi Straumsins
