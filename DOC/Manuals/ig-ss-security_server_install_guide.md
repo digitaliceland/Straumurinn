@@ -57,7 +57,7 @@ See X-Road terms and abbreviations documentation \[[TA-TERMS](#Ref_TERMS)\].
 The security server runs on the following platforms:
 
 * Red Hat Enterprise Linux 7.3 (RHEL7) or newer operating system on a 64-bit platform. The security server software is distributed as .rpm packages through the official X-Road repository at https://artifactory.niis.org/xroad-release-rpm/
-* Ubuntu Server 14.04 and 18.04 Long-Term Support (LTS) operating system. See [IG-SS](ig-ss_x-road_v6_security_server_installation_guide.md) for more information.
+* Ubuntu Server 14.04 and 18.04 Long-Term Support (LTS) operating system. See [IG-SS](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md) for more information.
 
 *Note*: If run in production environment, RHEL7 install with subscription is recommenend by Icelandic X-Road Operators
 
