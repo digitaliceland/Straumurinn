@@ -90,9 +90,9 @@ The security server runs on the following platforms:
  &nbsp; | TCP 8443                                | Information system access points (in the local network)<br> Connections from information systems
  1.8  |                                           | Security server internal IP address(es) and hostname(s)
  1.9  |                                           | Security server public IP address, NAT address
-|1.10 | x::y / x.x.x.x | Monitoring Security Server IP in IS instance
-| &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-test instance
-| &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-dev instance
+ 1.10 | x::y / x.x.x.x | Monitoring Security Server IP in IS instance
+  &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-test instance
+  &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-dev instance
 
 ### 2.3 Network Diagram
 
