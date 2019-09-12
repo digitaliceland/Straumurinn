@@ -68,8 +68,8 @@ The security server runs on the following platforms:
 
 **Caution**: Data necessary for the functioning of the operating system is not included.
 
-
- **Ref** |                                        | **Explanation**
+**Ref** |                                        | **Explanation**
+ 
  ------ | --------------------------------------- | ----------------------------------------------------------
  1.0    | RHEL7 (v7.3 or newer), 64-bit<br>2 CPU, 4 GB RAM, 10 GB free disk space | Minimum requirements
  1.1    | https://artifactory.niis.org/xroad-release-rpm               | X-Road package repository
@@ -90,16 +90,25 @@ The security server runs on the following platforms:
  &nbsp; | TCP 8443                                | Information system access points (in the local network)<br> Connections from information systems
  1.8  |                                           | Security server internal IP address(es) and hostname(s)
  1.9  |                                           | Security server public IP address, NAT address
+|1.10 | x::y / x.x.x.x | Monitoring Security Server IP in IS instance
+|     | x::y / x.x.x.x | Monitoring Security Server IP in IS-test instance
+|     | x::y / x.x.x.x | Monitoring Security Server IP in IS-dev instance
 
 ### 2.3 Network Diagram
 
 The following network diagram is an example of a simple stand-alone Security Server setup. Attention should be paid when configuring the firewall of your Security Server, as misconfigurations (e.g. exposing port 80/tcp to the public internet) can leave your server vulnerable.
 
-Allowing incoming connections from the Monitoring Security Server on ports 5500/tcp and 5577/tcp (reference data: 1.12) is necessary for the X-Road Center to be able to monitor the ecosystem and provide statistics and support for Members.
+Allowing incoming connections from the Monitoring Security Server on ports 5500/tcp and 5577/tcp (reference data: 1.10) is necessary for the X-Road Center to be able to monitor the ecosystem and provide statistics and support for Members.
 
 Caution: The enabling of auxiliary services which are necessary for the functioning and management of the operating system (such as DNS, NTP, and SSH) stay outside the scope of this guide.
 
 ![Network Drawing](../images/ig-ss_network_diagram.png)
+
+**IS IP Address Whitelist** | **IS - Production** | **IS test** | **IS dev**
+ --------------------------- | --------------------|-------------|---------------
+ Central Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
+ Central Monitoring Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
+ Managment Security Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
 
 ### 2.4 Requirements for the Security Server
 
