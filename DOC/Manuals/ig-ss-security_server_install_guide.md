@@ -68,8 +68,7 @@ The security server runs on the following platforms:
 
 **Caution**: Data necessary for the functioning of the operating system is not included.
 
-**Ref** |                                        | **Explanation**
- 
+**Ref** |                                         | **Explanation**
  ------ | --------------------------------------- | ----------------------------------------------------------
  1.0    | RHEL7 (v7.3 or newer), 64-bit<br>2 CPU, 4 GB RAM, 10 GB free disk space | Minimum requirements
  1.1    | https://artifactory.niis.org/xroad-release-rpm               | X-Road package repository
@@ -90,9 +89,9 @@ The security server runs on the following platforms:
  &nbsp; | TCP 8443                                | Information system access points (in the local network)<br> Connections from information systems
  1.8  |                                           | Security server internal IP address(es) and hostname(s)
  1.9  |                                           | Security server public IP address, NAT address
- 1.10 | x::y / x.x.x.x | Monitoring Security Server IP in IS instance
-  &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-test instance
-  &nbsp; | x::y / x.x.x.x | Monitoring Security Server IP in IS-dev instance
+ 1.10 | x::y / x.x.x.x                            | Monitoring Security Server IP in IS instance
+ &nbsp; | x::y / x.x.x.x                           | Monitoring Security Server IP in IS-test instance
+ &nbsp; | x::y / x.x.x.x                           | Monitoring Security Server IP in IS-dev instance
 
 ### 2.3 Network Diagram
 
