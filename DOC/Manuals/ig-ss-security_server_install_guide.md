@@ -105,9 +105,9 @@ Caution: The enabling of auxiliary services which are necessary for the function
 
 **IS IP Address Whitelist** | **IS - Production** | **IS test** | **IS dev**
  --------------------------- | --------------------|-------------|---------------
- Central Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
- Central Monitoring Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
- Managment Security Server | x::y / x.x.x.x | x::y / x.x.x.x | x::y / x.x.x.x
+ Central Server | 2a06:a101:42::/64 / 176.57.224.0/25 | 2a06:a101:42:abab::/64 / 176.57.224.128/25 | 2a06:a101:42:dede::/64 / 176.57.227.96/27
+ Central Monitoring Server | 2a06:a101:42::/64 / 176.57.224.0/25 | 2a06:a101:42:abab::/64 / 176.57.224.128/25 | 2a06:a101:42:dede::/64 / 176.57.227.96/27
+ Managment Security Server | 2a06:a101:42::/64 / 176.57.224.0/25 | 2a06:a101:42:abab::/64 / 176.57.224.128/25 | 2a06:a101:42:dede::/64 / 176.57.227.96/27
 
 ### 2.4 Requirements for the Security Server
 
