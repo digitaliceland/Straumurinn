@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:configurationAnchor xmlns:ns2="http://x-road.eu/xsd/identifiers" xmlns:ns3="http://x-road.eu/xsd/xroad.xsd">
+    <generatedAt>2020-01-31T10:55:57.500Z</generatedAt>
+    <instanceIdentifier>IS-DEV</instanceIdentifier>
+    <source>
+        <downloadURL>http://cs1.dev.xrd.island.is/internalconf</downloadURL>
+        <verificationCert>MIICqTCCAZGgAwIBAgIBATANBgkqhkiG9w0BAQ0FADAOMQwwCgYDVQQDDANOL0EwHhcNNzAwMTAxMDAwMDAwWhcNMzgwMTAxMDAwMDAwWjAOMQwwCgYDVQQDDANOL0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZsg12cl9fjk6we8OhLvoHeeZenOen3/ZWDGjD9PLnAeTiHIXHm4H6g5KTuaasIVjOhVe0L4d55UjYlxz4lSNwt5MwDgENTscbrXFfXW5SeXmFqhfgB/+JA9m8WIT6PE6HawRMHcZjqQuLDjl/NdYXevRT03AbzAMLyLe+33vEL4Ko2BUPgFURcV+z3GeQc+VXL2Xe/vBW+8PiaAoGAHzycD9Z8unwcXGs9XHu4LyjieYPVR5FH920acFC3mgWr9rmgenqq10hVWodEzfuLeDke0M7ceJJfuZgPWwHueU3eKum+HdKI7s5Chw0XALtFlsg/nmDTifp1gMAptGDZQyLAgMBAAGjEjAQMA4GA1UdDwEB/wQEAwIGQDANBgkqhkiG9w0BAQ0FAAOCAQEAhu+Uz72kdKdJ2LaaMo8PPebLJM8hTzvgAE6IE4WiJ80qiQ7BrYE6HZlfGV22QEUgSGVHRqd2q4NWj4n/rpJdOvHrXsseBvVPp7dk7lHIjKcnt0gnaIO+gicar0P1VnDnAOhimAmXV/zE7M4P3nhpv0JswYHIh1KrMVcqEeaEwCXWyYgGtJTToD5mpiCRcbKdC9ZKp2mzX0JTfOAbSuo0vs0X96U/Z7qFi7dkg3PqFyUZOgloFXjVyIuMc/686wgsQs4b2Qc9XrVP7DQU6hWmEp2mN3Ouh26v1e3/+gduK9P6+ki+bjX3QDSkFRm+gQehM/tM3VRSd+VJMS+RsrXtPQ==</verificationCert>
+    </source>
+</ns3:configurationAnchor>
