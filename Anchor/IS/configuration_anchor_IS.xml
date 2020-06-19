@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:configurationAnchor xmlns:ns2="http://x-road.eu/xsd/identifiers" xmlns:ns3="http://x-road.eu/xsd/xroad.xsd">
+    <generatedAt>2020-03-30T14:37:30.516Z</generatedAt>
+    <instanceIdentifier>IS</instanceIdentifier>
+    <source>
+        <downloadURL>http://cs1.xrd.island.is/internalconf</downloadURL>
+        <verificationCert>MIICqTCCAZGgAwIBAgIBATANBgkqhkiG9w0BAQ0FADAOMQwwCgYDVQQDDANOL0EwHhcNNzAwMTAxMDAwMDAwWhcNMzgwMTAxMDAwMDAwWjAOMQwwCgYDVQQDDANOL0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCCJuukdgHKtM9QnKg7pDGo1FoRgJX5Q5ACFYt4OACLabiqbSsvJSNUT6avjGVpa9xGf5A2wFTjpwAbO3V9dhvklUndXPXW6IGxN5Bl7brWk/pJFTeSxZ8tC0ceMN2tN2W+bwCeFbC3T9GDs7FSaYbX8uga0nFCz8BbJKwWZMTPcgQ6wTijUFUNbIFcM6lGA4pw6e6TqeR0d02gL7d9xCgwnTc+II8P9x9ax946rolRl1eLPJC/Wz82YSNkaaXPezsgszrD7za7i9rg7ryH9raJq93rDMunAf8IoV+mlSe+0SJxS5MRjCkJviuciUMVuXQ8pCPrk/agl1SRbHQGV6H7AgMBAAGjEjAQMA4GA1UdDwEB/wQEAwIGQDANBgkqhkiG9w0BAQ0FAAOCAQEAWW6s3W25cxFz+Pk2tDCRnxkGbKkAxiJSEMhX+jeTrpucYokEEiT0MQDRPz1BfqY2kq6L2vZQjrbHRyZ9oVjy60CxML1oBgjzWjRGXjr36Q+E3oTGkl/PaRGVkWGoJp4SEPnJrJD/ecenjc0hXqssV4yH57/GqLsaiCB7ab7zSt6pVbzAkmypdNZUFqheAqJanCDHlLBUBbzSti4tg/Ytcs6QoGV3Pj1tdvSq6oUeiJ94MDGKb+UVPaIidegnCPTWpcOqh+dQczgXAzO1vGATbDNbDH0z4BUMd5XZInaAKV6R2i/nQ5yPO/ys+ntZdKyqEZTk6gnVu96RlE0EECe5XA==</verificationCert>
+    </source>
+    <source>
+        <downloadURL>http://cs2.xrd.island.is/internalconf</downloadURL>
+        <verificationCert>MIICqTCCAZGgAwIBAgIBATANBgkqhkiG9w0BAQ0FADAOMQwwCgYDVQQDDANOL0EwHhcNNzAwMTAxMDAwMDAwWhcNMzgwMTAxMDAwMDAwWjAOMQwwCgYDVQQDDANOL0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrwUqnPU3EBv5Ql77+wnq0f+8YtR1EdNjT6mzqIKUSsmPIzWGUUEMm0KdaCkmeTNU4WLNfQfJU9hjN3S7R1t8I/4JPuZmzX9k2BWek5JIZ6wh+b77BJXmC3KKC4Y0GRuyX+KzbOjiwXKlr735/m47c4FF6BOIWTzcWI2ajXBFC1Su425xX6FVtpYM+8DOFlVuNGWmnvAeWQ0ApL7Dns9iRU0I/usFb85LgwfCXaKhfvWZuoh34sGBL8XYNWlkh1Gbguf8JTGU0HaXzodBcR62IScL2jGs2a+ATfT0d9SLJi3Qfh7fCUGKKb2EzFjH2rTemfOGxTOBkBopLeqBkhp1TAgMBAAGjEjAQMA4GA1UdDwEB/wQEAwIGQDANBgkqhkiG9w0BAQ0FAAOCAQEAmdp19nboacIfCSy+AGbzSQm0BF4IIJXEyzDNzIgT/08nuDnj5IxhCEcrRJUZ6+ZW0KRrEOtWbf5dyXdF9LiIuRZGbspcAIaIdMpDl3DtzGyhliUc7DB8q8WO/79/R1l51vnB5nZHoV7rgsIgjSwyTVD6unzTF5gt93yhYNrTldFz2v6bOL5c+Z9YJO3W117+3E/2s9ep3APAU1igPS5IF6+aVKhlGLyCydke5mu3Ka7uFayTF9PHmkib6A92eqTwBQSQPh5IGnpPnctiMqauo8jjnoLCkwcPmK8m86qjGxtibjW1Ilj8ani63KlkS5t7cifOZZ3YRsf8iF1nTGWksQ==</verificationCert>
+    </source>
+</ns3:configurationAnchor>
