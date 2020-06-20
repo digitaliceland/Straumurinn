@@ -1,7 +1,15 @@
 # Straumurinn
 Rekstrarumhverfi Straumsins
 
-## Getting started
+## Preface
+
+We recommend that you start by testing the *Standalone Security Server* so that you can get familiar with day-2 operations such as registering webservices enpoints.
+
+### Standalone Security Server
+
+We have created getting started guide on how to use [Standalone Security Server](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/standalone_security_server_tutorial.md) which runs in a container such as Docker/Podman for local testing  and development. This will help you understand how to register your services in a Security Server before you start installing on IS-DEV, IS-TEST or IS.
+
+## Getting started installing Security Server and intial configuration
 Here are the steps needed to install and participate in Straumurinn (Icelandic X-Road environment).
 1. Check out install guides for
     - [RedHat 7 / CentOS 7 *(Recommended)*](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide_for_rhel7.md)
@@ -15,7 +23,7 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
             * Don not use: `sudo apt-add-repository -y "deb https://artifactory.niis.org/xroad-release-deb $(lsb_release -sc)-current main"`
             * Use instead: `sudo apt-add-repository -y "deb https://mirrors.opensource.is/xroad/xroad-release-deb $(lsb_release -sc)-current main"`
         2. X-Road Package name to install in chapter 2.5, step 4 is: `xroad-securityserver-is`
-        3. AsciiMena Recording if the install procedure is here
+        3. AsciiMena Recording of the install procedure is here
 2. Download Configuration Anchor for the instance you need
     - [IS-DEV - Development](Anchor/IS-DEV/configuration_anchor_IS-DEV.xml)
         - `MD5: bf31d93ef082968ff24ed7f3a7dc20e8`
@@ -28,7 +36,3 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
 ## Network Whitelist
 
 When you are installing Security Server you probably have to do some firewall openings. [Network Whitelist](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/ig-ss-security_server_install_guide.md) and what ports need to be open is located here.
-
-## Standalone Security Server
-
-You can check out our getting started guide on [Standalone Security Server](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/standalone_security_server_tutorial.md) running on Docker for local testing before you start installing on IS-DEV, IS-TEST or IS. We recomment doing this first before starting to install anything.
