@@ -17,11 +17,11 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
         2. X-Road Package name to install in chapter 2.5, step 4 is: `xroad-securityserver-is`
         3. AsciiMena Recording if the install procedure is here
 2. Download Configuration Anchor for the instance you need
-    - [IS-DEV - Development](https://github.com/digitaliceland/Straumurinn/Anchor/IS-DEV/configuration_anchor_IS-DEV.xml)
+    - [IS-DEV - Development](Anchor/IS-DEV/configuration_anchor_IS-DEV.xml)
         - `MD5: bf31d93ef082968ff24ed7f3a7dc20e8`
-    - [IS-TEST - Testing](https://github.com/digitaliceland/Straumurinn/Anchor/IS-TEST/configuration_anchor_IS-TEST.xml)
+    - [IS-TEST - Testing](Anchor/IS-TEST/configuration_anchor_IS-TEST.xml)
         - `MD5: f9a682420b33328267ed66da3ca38f31`
-    - [IS - Production](https://github.com/digitaliceland/Straumurinn/Anchor/IS/configuration_anchor_IS.xml)
+    - [IS - Production](Anchor/IS/configuration_anchor_IS.xml)
         - `MD5: 53679813b9d1dfa2607756d482ee76e2`
 3. Next steps invole in logging into the admin interface located at https://servername:4000 and initalize the server using the correct Configuration Anchor above.
 
