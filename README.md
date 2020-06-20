@@ -7,7 +7,7 @@ We recommend that you start by testing the *Standalone Security Server* so that 
 
 ### Standalone Security Server
 
-We have created getting started guide on how to use [Standalone Security Server](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/standalone_security_server_tutorial.md) which runs in a container such as Docker/Podman for local testing  and development. This will help you understand how to register your services in a Security Server before you start installing on IS-DEV, IS-TEST or IS.
+We have created getting started guide on how to use [Standalone Security Server](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/standalone_security_server_tutorial.md) which runs in a container and can be executed with container runtimes such as Docker or Podman for local testing  and development. This will help you understand how to register your services in a Security Server before you start installing on IS-DEV, IS-TEST or IS.
 
 ## Getting started installing Security Server and intial configuration
 Here are the steps needed to install and participate in Straumurinn (Icelandic X-Road environment).
