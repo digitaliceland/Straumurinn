@@ -3,7 +3,7 @@ Rekstrarumhverfi Straumsins
 
 ## Preface
 
-We recommend that you start by testing the [*Standalone Security Server*](https://github.com/digitaliceland/Straumurinn#standalone-security-server) so that you can get familiar with day-2 operations such as registering webservices enpoints.
+We recommend that you start by testing the [*Standalone Security Server*](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/standalone_security_server_tutorial.md) so that you can get familiar with day-2 operations such as registering webservices enpoints.
 
 ### Standalone Security Server
 
