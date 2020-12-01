@@ -2,7 +2,7 @@
 
 **X-ROAD 6**
 
-Version: 0.1  
+Version: 0.2  
 Doc. ID: IG-SS
 
 ---
@@ -13,6 +13,7 @@ Doc. ID: IG-SS
  Date       | Version | Description                                                     | Author
  ---------- | ------- | --------------------------------------------------------------- | --------------------
  12.09.2019 | 0.1     | Initial version                                                 | Gudvardur Olafsson
+ 01.12.2020 | 0.2     | Updated topology picture and corrected some net work info       | Gudvardur Olafsson
 
 ## Table of Contents
 
@@ -76,22 +77,16 @@ The security server runs on the following platforms:
  1.3    |                                         | Account name in the user interface
  1.4    | TCP 5500                                | Port for inbound connections (from the external network to the security server)<br> Message exchange between security servers
  &nbsp; | TCP 5577                                | Port for inbound connections (from the external network to the security server)<br> Querying of OCSP responses between security servers
- &nbsp; | TCP 9011                                | Port for inbound connections (from the external network to the security server)<br> Operational data monitoring daemon JMX listening port
-  &nbsp; | TCP 9999                                | Port for inbound connections (from the external network to the security server)<br> Environmental monitoring daemon JMX listening port
  1.5  | TCP 5500                                  | Ports for outbound connections (from the security server to the external network)<br> Message exchange between security servers
  &nbsp; | TCP 5577                                | Ports for outbound connections (from the security server to the external network)<br> Querying of OCSP responses between security servers
  &nbsp; | TCP 4001                                | Ports for outbound connections (from the security server to the external network)<br> Communication with the central server
- &nbsp; | TCP 2080                                | Ports for outbound connections (from the security server to the internal network)<br> Message exchange between security server and operational data monitoring daemon (by default on localhost)
  &nbsp; | TCP 80                                  | Ports for outbound connections (from the security server to the external network)<br> Downloading global configuration
- &nbsp; | TCP 80,443                              | Ports for outbound connections (from the security server to the external network)<br> Most common OCSP and time-stamping services
+ &nbsp; | TCP 80,443,8080                              | Ports for outbound connections (from the security server to the external network)<br> Most common OCSP and time-stamping services
  1.6  | TCP 4000                                  | User interface (local network)
  1.7  | TCP 8080                                  | Information system access points (in the local network)<br> Connections from information systems
  &nbsp; | TCP 8443                                | Information system access points (in the local network)<br> Connections from information systems
  1.8  |                                           | Security server internal IP address(es) and hostname(s)
  1.9  |                                           | Security server public IP address, NAT address
- 1.10 | x::y / x.x.x.x                            | Monitoring Security Server IP in IS instance
- &nbsp; | x::y / x.x.x.x                           | Monitoring Security Server IP in IS-test instance
- &nbsp; | x::y / x.x.x.x                           | Monitoring Security Server IP in IS-dev instance
 
 ### 2.3 Network Diagram
 
@@ -101,8 +96,9 @@ Allowing incoming connections from the Monitoring Security Server on ports 5500/
 
 Caution: The enabling of auxiliary services which are necessary for the functioning and management of the operating system (such as DNS, NTP, and SSH) stay outside the scope of this guide.
 
-![Network Drawing](../images/ig-ss_network_diagram.png)
+![Network Drawing](../images/is-ig-ss_network_diagram.png)
 
+#### 2.3.1 X-Road Network Whitelist
 **IS IP Address Whitelist** | **IS - Production** | **IS test** | **IS dev**
  --------------------------- | --------------------|-------------|---------------
  Central Server | 2a06:a101:42::/64 - 176.57.224.0/25 | 2a06:a101:42:abab::/64 - 176.57.224.128/25 | 2a06:a101:42:dede::/64 - 176.57.227.96/27
