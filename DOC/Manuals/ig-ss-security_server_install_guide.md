@@ -28,6 +28,7 @@ Doc. ID: IG-SS
   * [2.1 Supported Platforms](#21-supported-platforms)
   * [2.2 Reference Data](#22-reference-ata)
   * [2.3 Network Diagram](#23-network-diagram)
+    * [2.3.1 X-Road Network Whitelist](#231-icelandic-x-road-network-whitelist)
   * [2.4 Requirements for the Security Server](24-requirements-for-the-security-server)
 <!-- tocstop -->
 

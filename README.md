@@ -39,4 +39,4 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
 
 ## Network Whitelist
 
-When you are installing Security Server you probably have to do some firewall openings. [Network Whitelist](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/ig-ss-security_server_install_guide.md) and what ports need to be open is located here.
+When you are installing Security Server you probably have to do some firewall openings. [Network Whitelist](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/ig-ss-security_server_install_guide.md#231-icelandic-x-road-network-whitelist), [Network Topology](https://github.com/digitaliceland/Straumurinn/blob/master/DOC/Manuals/ig-ss-security_server_install_guide.md#23-network-diagram) and what ports need to be open is located here.
