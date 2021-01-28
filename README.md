@@ -13,7 +13,7 @@ We have created getting started guide on how to use [Standalone Security Server]
 Here are the steps needed to install and participate in Straumurinn (Icelandic X-Road environment).
 1. Check out install guides for
     - [RedHat 7 or 8 *(Recommended)*](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide_for_rhel.md)<br>
-    [RedHat offers 16x RHEL Licenses for free (No-cost RHEL for small production workloads)](https://www.redhat.com/en/blog/new-year-new-red-hat-enterprise-linux-programs-easier-ways-access-rhel)
+    [No-cost RHEL for small production workloads](https://www.redhat.com/en/blog/new-year-new-red-hat-enterprise-linux-programs-easier-ways-access-rhel)
         1. In chapter 2.5 Installation step 1. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
             * Don __not__ use: 
                 ```shell
