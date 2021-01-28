@@ -12,11 +12,15 @@ We have created getting started guide on how to use [Standalone Security Server]
 ## Getting started installing Security Server and intial configuration
 Here are the steps needed to install and participate in Straumurinn (Icelandic X-Road environment).
 1. Check out install guides for
-    - [RedHat 7 or 8 / CentOS 7 or 8 *(Recommended)*](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide_for_rhel.md)
+    - [RedHat 7 or 8 *(Recommended)*](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide_for_rhel.md)<br>
+    [RedHat offers 16x RHEL Licenses for free (No-cost RHEL for small production workloads)](https://www.redhat.com/en/blog/new-year-new-red-hat-enterprise-linux-programs-easier-ways-access-rhel)
         1. In chapter 2.5 Installation step 1. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
-            * Don not use: `sudo yum-config-manager --add-repo https://artifactory.niis.org/xroad-release-rpm/rhel/7/current`
-            * Use instead: 
+            * Don __not__ use: 
+                ```shell
+                sudo yum-config-manager --add-repo https://artifactory.niis.org/xroad-release-rpm/rhel/7/current
                 ```
+            * Use instead: 
+                ```shell
                 sudo RHEL_MAJOR_VERSION=$(source /etc/os-release;echo ${VERSION_ID%.*})
                 sudo yum-config-manager --add-repo https://mirrors.opensource.is/xroad/xroad-release-rpm/rhel/${RHEL_MAJOR_VERSION}/current/
                 ```
@@ -24,8 +28,14 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
         3. [AsciiMena Recording if the install procedure is here](https://asciinema.org/a/xQIsVCnYL0sq9eOKgIzddqXHB)
     - [Ubuntu 18.04 LTS](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md)
         1. In chapter 2.5 Installation step 2. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
-            * Don not use: `sudo apt-add-repository -y "deb https://artifactory.niis.org/xroad-release-deb $(lsb_release -sc)-current main"`
-            * Use instead: `sudo apt-add-repository -y "deb https://mirrors.opensource.is/xroad/xroad-release-deb $(lsb_release -sc)-current main"`
+            * Don __not__ use: 
+                ```shell
+                sudo apt-add-repository -y "deb https://artifactory.niis.org/xroad-release-deb $(lsb_release -sc)-current main"
+                ```
+            * Use instead: 
+                ```shell
+                sudo apt-add-repository -y "deb https://mirrors.opensource.is/xroad/xroad-release-deb $(lsb_release -sc)-current main"
+                ```
         2. X-Road Package name to install in chapter 2.5, step 4 is: `xroad-securityserver-is`
         3. AsciiMena Recording of the install procedure is here
 2. Download Configuration Anchor for the instance you need
