@@ -25,7 +25,7 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
                 sudo yum-config-manager --add-repo https://mirrors.opensource.is/xroad/xroad-release-rpm/rhel/${RHEL_MAJOR_VERSION}/current/
                 ```
         2. X-Road Package name to install in chapter 2.5, step 4 is: `xroad-securityserver-is`
-        3. [AsciiMena Recording if the install procedure is here](https://asciinema.org/a/xQIsVCnYL0sq9eOKgIzddqXHB)
+        3. [AsciiMena Recording of the install procedure is here](https://asciinema.org/a/xQIsVCnYL0sq9eOKgIzddqXHB)
     - [Ubuntu 18.04 LTS](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md)
         1. In chapter 2.5 Installation step 2. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
             * Don __not__ use: 
