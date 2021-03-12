@@ -24,7 +24,7 @@ Please Install Docker Desktop.  The x-road security server requies docker.
 and click "Download Desktop and Take a Tutorial".  You will be required to create a free account during the download process.
 
 
-![docker](../images/docker1.png)
+![docker](../images/docker2.png)
 
 ### Install Go
 Please visit <https://golang.org/dl/> and download Go for your operating system.  Mac users can also use the brew command
@@ -94,7 +94,7 @@ Try out the web service by refreshing the page several time and see the time bei
 Leaving the web service active, please open a new command prompt and issue this commmand:
 
 ```console
-docker run -p 4000:4000 -p 80:80 --name ss niis/xroad-security-server-standalone:bionic-6.21.0
+docker run -p 4000:4000 -p 80:80 --name ss niis/xroad-security-server-standalone:bionic-6.25.0
 ```
 
 This will launch the SSS on ports 4000 and 80.  port 4000 has an admin interface we will use, but port 80 will be used to 
@@ -104,9 +104,9 @@ Tip:
 When you finish using the security server you can just press CTRL-C to shut it down.  When you want to restart it please use ```docker start -ai ss```
 
 ### Configuring the server
-Leaving the SSS running, please point your Firefox browser to: https://localhost:4000/login
+Leaving the SSS running, please point your Firefox browser to: https://localhost:4000/
 
-![login](../images/xrdlogin.png)
+![login](../images/xrdlogin2.png)
 
 Please use the following credentials to log in:
 * Username: xrd
@@ -116,38 +116,46 @@ Now you shoul be greeted by the X-Road SS page.
 
 Out of the box there is already configured a TestClient and a TestService.  We will use these accounts for our tests.
 
-Next we need to set up our new web service, to make it 
-accessible to our clients.
+Next we need to set up our new web service, to make it accessible to our clients.
 
-![login](../images/xrd2.png)
+Click TestService to access information about the service:
 
-Click the spanner to add a new REST web service and fill out the form.  Please note that you will need your network IP address on your local networok
+![login](../images/xrd2b.png)
+
+Then click SERVICES:
+
+![login](../images/xrd2c.png)
+
+And then click ADD REST to add a new REST web service and fill out the form.  Please note that you will need your network IP address on your local networok
+
+![login](../images/xrd2d.png)
 
 To get this IP address please click the apple -> System Preferences -> Network.  You will find your IP address there
+
 ![login](../images/xrd9.png)
 
 Now that you have your IP address you are ready to add the new web service.
 
-![login](../images/xrd3.png)
+![login](../images/xrd3a.png)
 
 Next we need to enable the web service
 
-![login](../images/xrd4.png)
+![login](../images/xrd4a.png)
 
-So far nobody has access to this web service.  We will grant access to the build inn TestClient
-![login](../images/xrd5.png)
+So far nobody has access to this web service.  We want to grant TestClient access to it
 
-And please select Add Subjects
+![login](../images/xrd5a.png)
 
-![login](../images/xrd6.png)
+And please select Test Client and then Next
 
-This brings us to the Add Subjects dialog box.  We want to add TestClient to our ACL
+![login](../images/xrd6a.png)
 
-![login](../images/xrd7.png)
+Next we have to add a service code.  We select TEST123 and then "Add Selected" 
 
-Nice Work.  We now have set up our ACLs.  Please close these dialog boxes so we can start working!
+![login](../images/xrd7a.png)
 
-![login](../images/xrd8.png)
+Nice Work.  We now have granted TestClient access to the service. 
+
 
 ## Testing the REST client
 
@@ -269,12 +277,14 @@ $ ./xclient run
 Now point your browser to <http://127.0.0.1:5000>
 
 You should be greeted with this page here:
+
 ![xclient1](../images/xclient1.png)
 
 Conveniently the default client ID and service ID are the same ones we used during our configuration of the X-Road
 Security Server.
 
 Please click "Submit Test".  Then you should see a screen similar to this one:
+
 ![xclient1](../images/xclient2.png)
 
 As you an see we were able to retrieve the time from the web service.  Also we can see all the request headers that xclient
