@@ -17,7 +17,8 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
         1. In chapter 2.5 Installation step 1. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
             * Don __not__ use: 
                 ```shell
-                sudo yum-config-manager --add-repo https://artifactory.niis.org/xroad-release-rpm/rhel/7/current
+                sudo RHEL_MAJOR_VERSION=$(source /etc/os-release;echo ${VERSION_ID%.*})
+                sudo yum-config-manager --add-repo https://artifactory.niis.org/xroad-release-rpm/rhel/${RHEL_MAJOR_VERSION}/current
                 ```
             * Use instead: 
                 ```shell
@@ -26,7 +27,7 @@ Here are the steps needed to install and participate in Straumurinn (Icelandic X
                 ```
         2. X-Road Package name to install in chapter 2.5, step 4 is: `xroad-securityserver-is`
         3. [AsciiMena Recording of the install procedure is here](https://asciinema.org/a/xQIsVCnYL0sq9eOKgIzddqXHB)
-    - [Ubuntu 18.04 LTS](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md)
+    - [Ubuntu 20.04/22.04 LTS](https://github.com/nordic-institute/X-Road/blob/develop/doc/Manuals/ig-ss_x-road_v6_security_server_installation_guide.md)
         1. In chapter 2.5 Installation step 2. You should use Icelandic mirror instead of Artifactory. Doing this speeds up your install.
             * Don __not__ use: 
                 ```shell
